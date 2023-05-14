@@ -1,0 +1,70 @@
+h1, h2, h3 {
+    font-size: calc(1 * var(--font-size));
+    font-weight: var(--font-weight-bold);
+}
+
+h3 {
+    font-style: italic;
+}
+
+// i, em, cite {}
+
+// b, strong {}
+
+// s {}
+
+abbr {
+    cursor: help;
+}
+
+mark {
+    padding: 0 .25rem;
+    border-radius: var(--xs);
+}
+
+kbd {
+    padding: .125rem .25rem;
+    border-radius: var(--xs);
+}
+
+pre {
+    padding: var(--md);
+
+    border-radius: var(--sm);
+
+    overflow-x: auto;
+}
+
+dl {
+    dt  {
+        font-weight: var(--font-weight-bold);
+    }
+
+    dd::before {
+        content: '↳  ';
+    }
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: var(--md);
+
+    gap: var(--gap);
+
+	border-left-width: .25rem;
+	border-left-style: solid;
+}
+
+// hr {}
+
+a {
+    font-weight: var(--font-weight-medium);
+
+    // &:link, &:visited {}
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

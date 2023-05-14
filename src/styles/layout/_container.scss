@@ -1,0 +1,6 @@
+.container, main {
+    margin-inline: auto;
+    padding: 0 var(--md);
+
+    max-width: var(--container-width);
+}

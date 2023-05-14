@@ -1,0 +1,23 @@
+:root {
+    --font-family: 'Open Sans', sans-serif;
+    --font-size: 1.125rem;
+
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+}
+
+:root {
+    --container-width: 80ch;
+
+    --xs: calc(.25 * var(--md));
+    --sm: calc(.5 * var(--md));
+    --md: 1rem;
+    --lg: calc(2 * var(--md));
+    --xl: calc(4 * var(--md));
+
+    --gutter: var(--lg);
+    --gap: var(--md);
+
+    --spacer: var(--md);
+}

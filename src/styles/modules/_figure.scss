@@ -1,0 +1,12 @@
+figure {
+    display: flex;
+    flex-direction: column;
+
+    gap: var(--sm);
+
+    overflow-x: auto;
+
+    figcaption {
+        font-style: italic;
+    }
+}

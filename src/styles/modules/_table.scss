@@ -1,0 +1,10 @@
+table {
+    border-collapse: collapse;
+
+    th, td {
+        padding: calc(var(--spacer) / 2) var(--spacer);
+        border-bottom: 1px solid var(--color-border);
+        text-align: left;
+        text-align: start;
+    }
+}

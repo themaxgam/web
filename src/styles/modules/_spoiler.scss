@@ -1,0 +1,12 @@
+details {
+    & > summary {
+        list-style-position: inside;
+        font-weight: bold;
+
+        cursor: pointer;
+    }
+
+    &[open] > *:not(:last-child) {
+        margin-bottom: var(--gap);
+    }
+}

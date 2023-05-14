@@ -1,0 +1,15 @@
+article {
+    margin: var(--xl) 0;
+
+    & > * {
+        margin: var(--gap) 0;
+    }
+
+	& > header {
+		margin-bottom: var(--gutter);
+	}
+
+    & > h2 {
+        margin-top: var(--gutter);
+    }
+}

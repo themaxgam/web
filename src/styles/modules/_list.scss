@@ -1,0 +1,9 @@
+ul, ol {
+    & > li {
+        list-style-position: inside;
+
+        & > ul, & > ol {
+            margin-left: var(--md);
+        }
+    }
+}

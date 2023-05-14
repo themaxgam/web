@@ -1,0 +1,2 @@
+'*.{html,njk,md,scss,js}':
+  - npm run pretty-quick:check
