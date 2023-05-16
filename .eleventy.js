@@ -9,6 +9,7 @@ module.exports = function (config) {
         'node_modules/@fontsource/open-sans/files/open-sans-{latin,latin-ext}-{400,500,700}-{italic,normal}.woff2':
             'assets/fonts/',
     });
+	config.addPassthroughCopy('src/robots.txt');
 
     plugins(config);
 
