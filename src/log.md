@@ -1,7 +1,10 @@
 ---
-title: Colophon
+title: Log
+subtitle: Colophon and website updates
 layout: layouts/article.njk
 ---
+
+## Colophon
 
 This site is built with the **11ty** static site generator and styled with custom stylesheets using **SASS**.
 Content is managed through **Markdown** files, utilizing **Nunjacks** as the template engine.
